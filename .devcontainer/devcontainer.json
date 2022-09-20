@@ -1,0 +1,23 @@
+{
+    "name": "Tenant Activity Log",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Default VS Code settings
+			"settings": { 
+				"terminal.integrated.defaultProfile.linux": "pwsh"
+			},
+			// following extensions are installed when the container is created.
+			"extensions": [
+				"GitHub.vscode-pull-request-github",
+                "EditorConfig.EditorConfig"
+			]
+		},
+		"codespaces": {}
+	},
+    "remoteUser": "codespace",
+    "runArgs": [ "" ],
+    "postStartCommand": ""
+}
