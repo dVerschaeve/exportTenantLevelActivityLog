@@ -14,10 +14,7 @@
 				"GitHub.vscode-pull-request-github",
                 "EditorConfig.EditorConfig"
 			]
-		},
-		"codespaces": {}
+		}
 	},
-    "remoteUser": "codespace",
-    "runArgs": [ "" ],
-    "postStartCommand": ""
+    "remoteUser": "codespace"
 }
